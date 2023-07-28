@@ -54,7 +54,7 @@ export default function Header() {
              
             />
            
-            <div className={styles.formGroup}>
+          <div className={styles.Group}>
             <div className={styles.form}>
               <p className={styles.label}>Número do Cartão</p>
             <input
@@ -64,13 +64,16 @@ export default function Header() {
               type="text"
              
             />
-            <p className={styles.label}>CVV</p>
+              </div>
+            <div className={styles.form}>
+              <p className={styles.label}>Número do Cartão</p>
             <input
-              id="cvv"
+              id="number"
+
               className={styles.field}
               type="text"
+             
             />
-
               </div>
             </div>
             <div className={styles.linha}></div>
