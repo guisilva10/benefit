@@ -29,10 +29,19 @@ export default function Header() {
         `}</style>
       </Head>
 
+<<<<<<< HEAD
       <div className={styles.Container}>
         <div className={styles.ImageContainer}>
           <img className={styles.logo} src="/logoEscura 2.png" alt="logo" />
         </div>
+=======
+      <div className={styles.container}>
+        <div className={styles.bg}>
+        <div className={styles.ImageContainer}>
+          <img className={styles.logo} src="/logoEscura 2.png" alt="logo" />
+        </div>
+        </div>
+>>>>>>> c7ab4a0 (edit: edição final)
         <div className={styles.LoginContainer}>
           <div className={styles.Login}>
             <p className={styles.title}>Detalhes do pagamento</p>
@@ -53,14 +62,23 @@ export default function Header() {
               type="text"
              
             />
+<<<<<<< HEAD
 
             <p className={styles.label}>Data de expiração</p>
             <input
               id="date"
+=======
+            <div className={styles.formGroup}>
+              <div className={styles.form}>
+              <p className={styles.label}>Número do Cartão</p>
+            <input
+              id="number"
+>>>>>>> c7ab4a0 (edit: edição final)
               className={styles.field}
               type="text"
              
             />
+<<<<<<< HEAD
 
             <p className={styles.label}>CVV</p>
             <input
@@ -71,6 +89,21 @@ export default function Header() {
 
 
             <div className={styles.linha}></div>
+=======
+              </div>
+              <div className={styles.form}>
+              <p className={styles.label}>Número do Cartão</p>
+            <input
+              id="number"
+              className={styles.field}
+              type="text"
+             
+            />
+              </div>
+            </div>
+              <div className={styles.linha}></div>
+            </div>
+>>>>>>> c7ab4a0 (edit: edição final)
             <div className={styles.value}>
             <p className={styles.label}>Valor Total</p>
             <p className={styles.valuePrice}>R$9,00</p>
@@ -82,7 +115,12 @@ export default function Header() {
             <img className={styles.logo2} src="/logo2.png" alt="logo" />
           </div>
         </div>
+<<<<<<< HEAD
       </div>
     </>
   );
+=======
+    </>
+  )
+>>>>>>> c7ab4a0 (edit: edição final)
 }
